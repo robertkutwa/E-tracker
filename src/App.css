@@ -12,7 +12,6 @@
   --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Base Styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
@@ -29,7 +28,6 @@ body {
   min-height: 100vh;
 }
 
-/* Header Styles */
 .app-header {
   text-align: center;
   margin-bottom: 2rem;
@@ -41,14 +39,12 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* Layout */
 .container {
   display: flex;
   gap: 2rem;
   margin-top: 1rem;
 }
 
-/* Form Styles */
 .expense-form {
   flex: 1;
   padding: 1.5rem;
@@ -84,7 +80,6 @@ body {
   box-shadow: 0 0 0 2px rgba(72, 149, 239, 0.2);
 }
 
-/* Button Styles */
 button {
   padding: 0.75rem 1.5rem;
   background: var(--primary);
@@ -114,7 +109,6 @@ button:active {
   background: #d3166e;
 }
 
-/* Table Styles */
 .expense-table {
   flex: 2;
   background: white;
@@ -147,7 +141,6 @@ tr:hover {
   background-color: rgba(67, 97, 238, 0.05);
 }
 
-/* Search Bar */
 .search-bar {
   margin-bottom: 1.5rem;
 }
@@ -160,7 +153,6 @@ tr:hover {
   font-size: 1rem;
 }
 
-/* Footer */
 .app-footer {
   text-align: center;
   margin-top: 2rem;
@@ -168,7 +160,6 @@ tr:hover {
   color: var(--text-dark);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -180,7 +171,6 @@ tr:hover {
   }
 }
 
-/* Animation */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
